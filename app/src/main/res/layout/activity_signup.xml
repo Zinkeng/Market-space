@@ -51,14 +51,35 @@
         android:inputType="textPersonName"
         android:textSize="18sp" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="User Type"
-        android:backgroundTint="@color/button"
-        android:layout_gravity="center"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/background">
+
+   <RadioGroup
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <RadioButton
+           android:id="@+id/radioButton"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:text="Buyer"
+           android:layout_gravity="center"
+           android:textColor="#630404"/>
+
+       <RadioButton
+           android:id="@+id/radioButton2"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:text="Seller"
+           android:layout_gravity="center"
+           android:textColor="#630404"
+           />
+   </RadioGroup>
+</LinearLayout>
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -102,6 +123,7 @@
         android:layout_height="wrap_content"
         android:text="Sign up"
         android:textStyle="bold"
+        android:onClick="signUp"
         android:layout_gravity="center"/>
 
     <TextView
@@ -112,6 +134,8 @@
         android:layout_gravity="center"
         android:textSize="15dp"
         android:textColor="#630404"/>
+
+
 
 
 </LinearLayout>

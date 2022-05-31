@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_landingpage);
+        setContentView(R.layout.activity_signup);
 
     }
     public void ImageClicked(View v){

@@ -16,22 +16,7 @@
         android:onClick="ImageClicked"
         android:layout_gravity="center_horizontal"
         />
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Anne"
-            android:textSize="30dp"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button 1"
-            android:layout_marginLeft="10dp"/>0
-    </LinearLayout>
+
 
 
 </LinearLayout>
